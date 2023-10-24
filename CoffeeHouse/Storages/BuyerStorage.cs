@@ -67,35 +67,6 @@ namespace CoffeeHouse.Storages
             }
         }
 
-        //public List<Guid> GetAllBuyers()
-        //{
-        //    var allBuyers = new List<Guid>();
-        //    var selectExeption = "SELECT * FROM Buyers";
-
-        //    using (var connection = new SqlConnection(_connectionString))
-        //    {
-        //        try
-        //        {
-        //            connection.Open();
-
-        //            var command = new SqlCommand(selectExeption, connection);
-        //            var reader = command.ExecuteReader();
-
-        //            if (reader.HasRows)
-        //            {
-        //                var id = reader["BuyerId"];
-        //                allBuyers.Add((Guid)id);
-        //            }
-
-        //            return allBuyers;
-        //        }
-        //        catch (Exception)
-        //        {
-
-        //            return allBuyers;
-        //        }
-        //    }
-        //}
 
     }
 }
